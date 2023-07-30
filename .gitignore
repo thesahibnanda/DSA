@@ -1,0 +1,15 @@
+# Ignore the .vscode/ directory
+.vscode/
+
+# Ignore C++ executable files
+*.exe
+
+# Ignore other build-related files and directories
+/build/
+/out/
+
+# Ignore system-specific temporary files or hidden files
+.DS_Store
+Thumbs.db
+
+# Allow all other files and directories to be tracked
