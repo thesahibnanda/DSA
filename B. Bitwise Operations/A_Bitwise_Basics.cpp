@@ -49,3 +49,5 @@ int main()
     std::cin >> z;
     std::cout << "Unsigned NOT: "<< ~z;
 }
+
+// All Basic Bitwise Operators Executed
