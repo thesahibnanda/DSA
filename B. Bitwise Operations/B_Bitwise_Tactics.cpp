@@ -61,4 +61,4 @@ int main()
 
 }
 
-// Basic Bitwise Tactics To Increase Computation Speed
+// Basic Bitwise Tactics
