@@ -1,6 +1,6 @@
 # **Data Structures and Algorithms**
 
-![Language](https://img.shields.io/badge/language-C%2B%2B-blue.svg)
+![Language](https://img.shields.io/badge/language-C%2B%2B-orange.svg)
 ![Last Commit](https://img.shields.io/github/last-commit/thesahibnanda/DSA.svg)
 ![GitHub Commit Activity](https://img.shields.io/github/commit-activity/y/thesahibnanda/DSA)
 
