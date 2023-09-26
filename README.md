@@ -2,7 +2,7 @@
 
 ![Language](https://img.shields.io/badge/language-C%2B%2B-blue.svg)
 ![Last Commit](https://img.shields.io/github/last-commit/thesahibnanda/DSA.svg)
-![GitHub Commit Activity](https://img.shields.io/github/commit-activity/w/thesahibnanda/DSA)
+![GitHub Commit Activity](https://img.shields.io/github/commit-activity/y/thesahibnanda/DSA)
 
 
 This repository contains a collection of Data Structures and Algorithms problems solved in C++. I keep adding new problems as I solve them, and it serves as a personal portfolio of my coding journey.
