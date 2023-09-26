@@ -52,7 +52,7 @@ int main() {
 
     std::vector<std::string> result = solution.filterStrings(inputList);
 
-    std::cout << "Strings With The Same Digit Counts:" << std::endl;
+    std::cout << "\nStrings With The Same Digit Counts:" << std::endl;
     for (const std::string& str : result) {
         std::cout << str << std::endl;
     }
