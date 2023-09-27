@@ -13,3 +13,5 @@
 Thumbs.db
 
 # Allow all other files and directories to be tracked
+
+.ipynb_checkpoints
