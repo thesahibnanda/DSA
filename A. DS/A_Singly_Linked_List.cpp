@@ -17,7 +17,10 @@ class LinkedList {
         Node* head;
 
     public:
-        LinkedList() : head(nullptr) {}
+        LinkedList()
+        {
+            head = NULL;
+        }
     
         void insertAtHead(int val) 
         {
@@ -69,6 +72,45 @@ class LinkedList {
                 }
             }
         }
+
+        void deleteAtHead()
+        {
+            if(head == NULL) 
+            {
+
+            }
+            else
+            {
+                Node* temp = head;
+                head = head->next;
+                delete temp;
+            }
+        }
+
+        void deleteAtTail()
+        {
+            if(head == NULL) 
+            {
+                
+            }
+            else if(head->next == NULL) 
+            {
+                delete head;
+                head = NULL;
+            }
+            else
+            {
+            
+                Node* temp = head;
+                while(temp->next->next != NULL) 
+                {
+                    temp = temp->next;
+                }
+                delete temp->next;
+                temp->next = NULL;
+            }
+        }
+
 };
 
 int main() 
@@ -80,8 +122,23 @@ int main()
     list.insertAtTail(3);
     list.insertAtTail(4);
     list.insertAtHead(0);
+    list.insertAtTail(5);
     
     list.display();
+
+    list.deleteAtHead();
+
+    std::cout<<"\nAfter Deletion From Head: "<<std::endl;
+
+    list.display();
+
+    list.deleteAtTail();
+
+    std::cout<<"\nAfter Deletion From Tail: "<<std::endl;
+
+    list.display();
+
+
     
     return 0;
 }
