@@ -182,9 +182,9 @@ class LinkedList {
             }
         }
 
-        int size()
+        long long size()
         {
-            int count = 0;
+            long long count = 0;
             Node* temp = head;
             while(temp != NULL)
             {
