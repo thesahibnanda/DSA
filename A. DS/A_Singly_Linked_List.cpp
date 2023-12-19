@@ -182,6 +182,19 @@ class LinkedList {
             }
         }
 
+        int size()
+        {
+            int count = 0;
+            Node* temp = head;
+            while(temp != NULL)
+            {
+                count++;
+                temp = temp->next;
+            }
+            return count;
+        }
+
+
 };
 
 int main() 
@@ -216,6 +229,8 @@ int main()
     std::cout<<"\nAfter Deletion At Index 1: "<<std::endl;
 
     list.display();
+
+    std::cout<< "\nSize Of Linked List: " << list.size()<< std::endl;
     
 
 
