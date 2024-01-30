@@ -4,7 +4,6 @@
 
 using namespace std;
 
-// Solution Begins
 class Solution {
     public:
         bool containsDuplicate(vector<int>& nums) 
