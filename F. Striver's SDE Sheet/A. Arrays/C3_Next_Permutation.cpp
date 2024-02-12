@@ -57,3 +57,10 @@ private:
         }
     }
 };
+
+int main()
+{
+    return 0;
+}
+
+// Leetcode 31: Next Permutation
